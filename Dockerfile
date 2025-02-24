@@ -9,7 +9,7 @@ WORKDIR $HOME
 ######### Customize Container Here ###########
 
 
-RUN apt update && apt install -y nicotine+
+RUN apt update && apt install -y xfce4-terminal
 
 
 ######### End Customizations ###########
